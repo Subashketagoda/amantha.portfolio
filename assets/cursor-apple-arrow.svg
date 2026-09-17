@@ -1,0 +1,6 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Subtle Depth Shadow -->
+  <path d="M4 2.5L18.5 15.5L12.5 16.2L15.8 23.2L13 24.5L9.5 17.5L4 22V2.5Z" fill="rgba(0,0,0,0.38)" transform="translate(1.2, 1.5)"/>
+  <!-- Minimalist Apple Style Sharp Arrow -->
+  <path d="M4 2.5L18.5 15.5L12.5 16.2L15.8 23.2L13 24.5L9.5 17.5L4 22V2.5Z" fill="#FFFFFF" stroke="#080808" stroke-width="1.65" stroke-linejoin="round" stroke-linecap="round"/>
+</svg>

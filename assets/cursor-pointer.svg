@@ -1,0 +1,9 @@
+<svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Subtle Drop Shadow -->
+  <path d="M5 3L19 15L12 15.8L15.2 22.5L12.5 23.8L9.2 17L4.5 21.5V3Z" fill="rgba(0,0,0,0.25)" transform="translate(1, 1)"/>
+  <!-- Interactive Arrow with Subtle Emerald Accent -->
+  <path d="M5 3L19 15L12 15.8L15.2 22.5L12.5 23.8L9.2 17L4.5 21.5V3Z" fill="#FFFFFF" stroke="#0A0A0A" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+  <!-- Signature Matcha Green Active Indicator Dot -->
+  <circle cx="21" cy="6" r="4.5" fill="#22C55E" stroke="#0A0A0A" stroke-width="1.4"/>
+  <circle cx="21" cy="6" r="1.8" fill="#FFFFFF"/>
+</svg>

@@ -1,0 +1,931 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>AMANTHA PERERA — Marketer · Founder · Creator · Performer</title>
+  <meta name="description" content="Amantha Perera (@notamantha) — Marketer, Founder of Organic, Creator & Divide Franchise Owner. Building brands the organic way through culture, performance and scale.">
+
+  <!-- Typography: Space Grotesk, Syne, Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@300;400;500;600;700&family=Syne:wght@700;800&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <link rel="stylesheet" href="styles.css?v=25">
+</head>
+<body class="editorial-body">
+
+  <!-- Luxury Awwwards Fluid Magnetic Cursor -->
+  <div class="luxury-cursor-wrap" id="luxuryCursorWrap" aria-hidden="true">
+    <div class="cursor-dot" id="cursorDot"></div>
+    <div class="cursor-ring" id="cursorRing">
+      <span class="cursor-badge-text" id="cursorBadgeText"></span>
+    </div>
+  </div>
+
+  <!-- Architectural Minimalist Editorial Preloader (Pentagram / Apple Aesthetic) -->
+  <aside class="editorial-preloader" id="preloader" aria-label="Page Loading Screen">
+    <!-- Top & Bottom Architectural Split Shutters -->
+    <div class="preloader-shutter shutter-top"></div>
+    <div class="preloader-shutter shutter-bottom"></div>
+
+    <div class="preloader-inner" id="preloaderInner">
+      <!-- Top Meta Row -->
+      <div class="preloader-top-bar">
+        <div class="preloader-brand-meta">
+          <span class="p-brand-tag">PORTFOLIO</span>
+          <span class="p-brand-sep">/</span>
+          <span class="p-brand-name">AMANTHA PERERA</span>
+        </div>
+        <div class="preloader-edition-meta">
+          <span class="p-edition-tag">ARCHIVE 2026</span>
+          <span class="p-edition-dot"></span>
+          <span class="p-edition-loc">COLOMBO // GLOBAL</span>
+        </div>
+      </div>
+
+      <!-- Center Masked Typographic Reveal -->
+      <div class="preloader-center-content">
+        <div class="preloader-mask-container" id="preloaderMaskWrap">
+          <div class="preloader-mask-line">
+            <h1 class="preloader-reveal-text">AMANTHA PERERA</h1>
+          </div>
+          <div class="preloader-mask-subline">
+            <p class="preloader-reveal-sub">MARKETER · FOUNDER · CREATOR · PERFORMER</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Hairline Progress & Minimal Metric Counter -->
+      <div class="preloader-bottom-bar">
+        <div class="preloader-hairline-track">
+          <div class="preloader-hairline-fill" id="preloaderProgressBar"></div>
+        </div>
+
+        <div class="preloader-meta-row">
+          <div class="preloader-label-group">
+            <span class="preloader-index-tag">01 //</span>
+            <span class="preloader-live-status" id="preloaderStatus">BUILDING BRANDS THE ORGANIC WAY</span>
+          </div>
+          <div class="preloader-counter-wrap">
+            <span class="preloader-counter-num" id="preloaderCounter">0</span>
+            <span class="preloader-counter-pct">%</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Cinematic Film Grain Texture -->
+  <div class="film-grain" aria-hidden="true"></div>
+
+  <!-- Minimalist Sticky Navigation -->
+  <header class="editorial-nav" id="mainNav">
+    <div class="nav-inner">
+      <a href="#hero" class="nav-brand" data-cursor="AMANTHA">
+        AMANTHA<span class="dot">.</span>
+      </a>
+
+      <nav class="nav-links-desktop">
+        <a href="#about" class="nav-link" data-cursor="EXPLORE">ABOUT</a>
+        <a href="#unfiltered" class="nav-link" data-cursor="READ">UNFILTERED</a>
+        <a href="#stats" class="nav-link" data-cursor="DATA">METRICS</a>
+        <a href="#work" class="nav-link" data-cursor="WORK">WORK</a>
+        <a href="#organic" class="nav-link" data-cursor="AGENCY">ORGANIC</a>
+        <a href="#divide" class="nav-link" data-cursor="BUSINESS">DIVIDE</a>
+        <a href="#performer" class="nav-link" data-cursor="STAGE">PERFORMER</a>
+        <a href="#rates" class="nav-link" data-cursor="PRICING">RATES</a>
+      </nav>
+
+      <div class="nav-right">
+        <a href="#contact" class="nav-cta-link magnetic" data-cursor="TALK ↗">
+          <span>LET'S TALK</span>
+          <span class="arrow">↗</span>
+        </a>
+
+        <button class="menu-toggle-btn" id="menuToggle" aria-label="Toggle Navigation">
+          <span class="line line-1"></span>
+          <span class="line line-2"></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Full-Screen Mobile Menu Overlay -->
+  <div class="mobile-menu-overlay" id="mobileOverlay">
+    <div class="mobile-menu-content">
+      <div class="mobile-menu-header">
+        <span class="mobile-brand">AMANTHA.</span>
+        <button class="mobile-close-btn" id="mobileClose">&times;</button>
+      </div>
+      <nav class="mobile-nav-links">
+        <a href="#about" class="mobile-link"><span>01</span> ABOUT</a>
+        <a href="#unfiltered" class="mobile-link"><span>02</span> UNFILTERED</a>
+        <a href="#stats" class="mobile-link"><span>03</span> METRICS</a>
+        <a href="#work" class="mobile-link"><span>04</span> WORK</a>
+        <a href="#organic" class="mobile-link"><span>05</span> ORGANIC</a>
+        <a href="#divide" class="mobile-link"><span>06</span> DIVIDE</a>
+        <a href="#performer" class="mobile-link"><span>07</span> PERFORMER</a>
+        <a href="#rates" class="mobile-link"><span>08</span> RATES</a>
+        <a href="#contact" class="mobile-link highlight"><span>09</span> LET'S TALK ↗</a>
+      </nav>
+      <div class="mobile-menu-footer">
+        <p>notamanthaperera27@gmail.com</p>
+        <div class="mobile-socials">
+          <a href="https://instagram.com/notamantha" target="_blank" rel="noopener">INSTAGRAM</a>
+          <a href="https://tiktok.com/@notamantha" target="_blank" rel="noopener">TIKTOK</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <main>
+    <!-- ====================================================================
+         01. HERO SECTION (IMMERSIVE EDITORIAL COVER)
+         ==================================================================== -->
+    <section class="hero-editorial" id="hero">
+      <!-- Trending 3D Spatial Scrolling Canvas Background Layer -->
+      <div class="hero-3d-bg-wrap" id="hero3dWrap" aria-hidden="true">
+        <canvas id="hero3dCanvas" class="hero-3d-canvas"></canvas>
+        <div class="hero-3d-vignette"></div>
+      </div>
+
+      <div class="hero-top-bar">
+        <span class="hero-roles-label">MARKETER · FOUNDER · CREATOR · PERFORMER</span>
+        <span class="hero-status"><span class="status-indicator"></span> AVAILABLE FOR 2026 PARTNERSHIPS</span>
+      </div>
+
+      <div class="hero-main-stage">
+        <!-- Giant Typography Layer Behind/Around Image -->
+        <div class="hero-huge-type" aria-hidden="true">
+          <div class="type-line line-amantha" id="typeAmantha">AMANTHA</div>
+          <div class="type-line line-perera" id="typePerera">PERERA</div>
+        </div>
+
+        <!-- Large Editorial Couch Cutout at Bottom of Hero Stage -->
+        <div class="hero-couch-cutout-wrap" id="heroCouchWrap" data-cursor="AMANTHA">
+          <img src="assets/images/hero-couch-cutout.png" alt="Amantha Perera" class="hero-couch-cutout-img" id="heroCouchImg">
+        </div>
+      </div>
+
+      <div class="hero-bottom-bar">
+        <div class="hero-statement">
+          <p class="tagline">Building brands the <em>organic</em> way.</p>
+          <p class="tagline-sub">Translating digital virality into real-world offline revenue and cultural dominance.</p>
+        </div>
+
+        <div class="hero-metrics-pill" data-cursor="METRICS">
+          <div class="m-pill-item">
+            <span class="num">98.2K</span>
+            <span class="lbl">AUDIENCE</span>
+          </div>
+          <span class="m-pill-div">/</span>
+          <div class="m-pill-item">
+            <span class="num">35+</span>
+            <span class="lbl">BRANDS</span>
+          </div>
+          <span class="m-pill-div">/</span>
+          <div class="m-pill-item">
+            <span class="num">22 Y/O</span>
+            <span class="lbl">OPERATOR</span>
+          </div>
+        </div>
+
+        <div class="hero-scroll-cue">
+          <a href="#about" class="scroll-link magnetic" data-cursor="SCROLL ↓">
+            <span class="scroll-txt">EXPLORE</span>
+            <span class="scroll-arrow">↓</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- High-Impact Editorial Ticker Ribbon Between Hero & About -->
+    <div class="hero-marquee-ribbon" aria-hidden="true">
+      <div class="marquee-ribbon-track">
+        <span>★ BUILDING BRANDS THE <em>ORGANIC</em> WAY</span>
+        <span>★ 98.2K CREATOR AUDIENCE</span>
+        <span>★ 4.9M+ LIFETIME LIKES</span>
+        <span>★ 1.2M+ MONTHLY REACH</span>
+        <span>★ ORGANIC CREATIVE AGENCY</span>
+        <span>★ DIVIDE COFFEE & CEREMONIAL MATCHA</span>
+        <span>★ STAND-UP COMEDY ARCHIVES</span>
+        <span>★ COLOMBO, SRI LANKA</span>
+        <span>★ 35+ BRAND CAMPAIGNS</span>
+        <span>★ BUILDING BRANDS THE <em>ORGANIC</em> WAY</span>
+        <span>★ 98.2K CREATOR AUDIENCE</span>
+        <span>★ 4.9M+ LIFETIME LIKES</span>
+        <span>★ 1.2M+ MONTHLY REACH</span>
+        <span>★ ORGANIC CREATIVE AGENCY</span>
+        <span>★ DIVIDE COFFEE & CEREMONIAL MATCHA</span>
+      </div>
+    </div>
+
+    <!-- ====================================================================
+         02. ABOUT SECTION ("WHO I AM") — ASYMMETRIC 60/40 EDITORIAL
+         ==================================================================== -->
+    <section class="section-editorial about-section" id="about">
+      <div class="section-meta-header">
+        <span class="meta-number">01</span>
+        <span class="meta-title">WHO I AM</span>
+      </div>
+
+      <div class="about-editorial-grid">
+        <div class="about-col-headline">
+          <h2 class="massive-headline">
+            CREATOR <br>
+            <span class="symbol">+</span> MARKETER <br>
+            <span class="symbol">+</span> OPERATOR<span class="accent-period">.</span>
+          </h2>
+          <div class="about-caption-box">
+            <p class="caption-label">THE INTERSECTION OF CULTURE & COMMERCE</p>
+            <p class="caption-text">Most creators don’t understand P&L. Most operators don’t understand algorithms. I live in the friction between both.</p>
+          </div>
+        </div>
+
+        <div class="about-col-prose">
+          <div class="editorial-copy">
+            <p class="lead-paragraph">
+              I build <strong>culture-first content</strong>, run an <strong>organic-first agency</strong>, perform on stage, and operate a physical business (<strong>Divide franchise</strong>) that proves I can scale ideas into real-world revenue.
+            </p>
+            <p>
+              At 22, I’ve grown a combined platform of over <strong>200,000+ followers</strong>, founded <strong>Organic</strong>, and run Divide, a living example of brand-to-business execution. I don’t believe in empty vanity metrics; I architect distribution strategies that translate directly into sustained attention, brand equity, and profit.
+            </p>
+          </div>
+
+          <div class="about-portrait-cutout" data-cursor="AMANTHA">
+            <img src="assets/images/amantha-chair.png" alt="Amantha Perera" class="cutout-img">
+            <div class="cutout-signature">
+              <span class="sig-name">Amantha Perera</span>
+              <span class="sig-role">FOUNDER · CREATOR · OPERATOR</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         03. "UNFILTERED AMANTHA" — FASHION MAGAZINE SPREAD
+         ==================================================================== -->
+    <section class="section-editorial unfiltered-section" id="unfiltered">
+      <div class="unfiltered-layout">
+        <div class="unfiltered-header-strip">
+          <span class="unfiltered-tag">ISSUE 01 // MANIFESTO</span>
+          <span class="unfiltered-subtag">Honest. Bold. Unapologetically raw.</span>
+        </div>
+
+        <div class="unfiltered-editorial-spread">
+          <div class="spread-image-wrapper" data-cursor="RAW">
+            <img src="assets/images/amantha-laughing.png" alt="Amantha Perera Unfiltered" class="unfiltered-photo">
+            <div class="photo-timestamp">2026 ARCHIVE // 03</div>
+          </div>
+
+          <div class="spread-content-wrapper">
+            <h2 class="unfiltered-giant-title">UNFILTERED</h2>
+            
+            <div class="manifesto-principles">
+              <div class="principle-entry">
+                <span class="p-num">01</span>
+                <div class="p-body">
+                  <h4>I don’t just make content: I build businesses around it.</h4>
+                  <p>Content without commercial architecture is just noise. Every piece of media should either capture margin, build enterprise value, or feed an ecosystem.</p>
+                </div>
+              </div>
+
+              <div class="principle-entry">
+                <span class="p-num">02</span>
+                <div class="p-body">
+                  <h4>Running a franchise taught me what most marketers will never know.</h4>
+                  <p>Customer ops, inventory turnover, payroll, and P&L accountability. The lessons learned running a physical storefront are poured directly into every client campaign.</p>
+                </div>
+              </div>
+
+              <div class="principle-entry">
+                <span class="p-num">03</span>
+                <div class="p-body">
+                  <h4>Bridging online virality with offline sales.</h4>
+                  <p>Going viral is easy. Converting 1,000,000 algorithmic views into physical footfall, retail purchases, and die-hard customer loyalty is the actual craft.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="unfiltered-badge-pill">
+              <span>FLUENT IN ATTENTION, CONVERSIONS — ONLINE & OFFLINE</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         04. STATISTICS EXPERIENCE — EDITORIAL METRIC WALL
+         ==================================================================== -->
+    <section class="section-editorial stats-section" id="stats">
+      <div class="section-meta-header">
+        <span class="meta-number">02</span>
+        <span class="meta-title">DISTRIBUTION & PERFORMANCE</span>
+      </div>
+
+      <div class="stats-editorial-headline">
+        <h3>REAL ATTENTION. <br><span class="muted-title">DOCUMENTED CONVERSIONS.</span></h3>
+      </div>
+
+      <div class="stats-monumental-grid">
+        <!-- Metric 1 -->
+        <div class="stat-cell">
+          <div class="stat-top">
+            <span class="stat-platform">INSTAGRAM (@notamantha)</span>
+            <span class="stat-tag">ACTIVE AUDIENCE</span>
+          </div>
+          <div class="stat-huge-number">
+            <span class="counter" data-target="98200">98.2</span><span class="unit">K</span>
+          </div>
+          <p class="stat-desc">Highly engaged lifestyle, business, and creative demographic across Sri Lanka & the diaspora.</p>
+          <div class="stat-footer-detail">
+            <span>STORY VIEWS: 10,000+</span>
+            <span>LINK CLICKS: 100+</span>
+          </div>
+        </div>
+
+        <!-- Metric 2 -->
+        <div class="stat-cell">
+          <div class="stat-top">
+            <span class="stat-platform">TIKTOK (@notamantha)</span>
+            <span class="stat-tag">VIRAL REACH</span>
+          </div>
+          <div class="stat-huge-number">
+            <span class="counter" data-target="4900000">4.9</span><span class="unit">M</span>
+          </div>
+          <p class="stat-desc">Total cumulative likes and multi-million view video series built completely through organic culture hooks.</p>
+          <div class="stat-footer-detail">
+            <span>FOLLOWERS: 104.4K</span>
+            <span>AVG VIEWS: 25K-400K+</span>
+          </div>
+        </div>
+
+        <!-- Metric 3 -->
+        <div class="stat-cell">
+          <div class="stat-top">
+            <span class="stat-platform">MONTHLY IMPRESSIONS</span>
+            <span class="stat-tag">ORGANIC REACH</span>
+          </div>
+          <div class="stat-huge-number">
+            <span class="counter" data-target="1200000">1.2</span><span class="unit">M+</span>
+          </div>
+          <p class="stat-desc">Unpaid, viral attention generated consistently month over month without paid media inflation.</p>
+          <div class="stat-footer-detail">
+            <span>RETENTION: HIGH</span>
+            <span>VELOCITY: RELENTLESS</span>
+          </div>
+        </div>
+
+        <!-- Metric 4 -->
+        <div class="stat-cell">
+          <div class="stat-top">
+            <span class="stat-platform">PORTFOLIO TRACK RECORD</span>
+            <span class="stat-tag">SCALE DISCIPLINE</span>
+          </div>
+          <div class="stat-huge-number">
+            <span class="counter" data-target="35">35</span><span class="unit">+</span>
+          </div>
+          <p class="stat-desc">Leading Sri Lankan and regional client brands grown through personality-led creative execution.</p>
+          <div class="stat-footer-detail">
+            <span>MONTHLY VIDEOS: 20+</span>
+            <span>ENGAGEMENT: 8–10%</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         05. WORK / CONTENT SHOWCASE — ASYMMETRIC MASONRY
+         ==================================================================== -->
+    <section class="section-editorial work-section" id="work">
+      <div class="section-meta-header">
+        <span class="meta-number">03</span>
+        <span class="meta-title">SELECTED WORK & IMPACT</span>
+      </div>
+
+      <div class="work-headline-wrap">
+        <h2 class="massive-headline">WHERE CULTURE <br>BECOMES COMMERCE<span class="accent-period">.</span></h2>
+      </div>
+
+      <div class="work-masonry-layout">
+        <!-- Feature Item 1: Divide Launch -->
+        <article class="work-item item-featured" data-cursor="VIEW ↗">
+          <div class="work-image-holder">
+            <img src="assets/images/divide-storefront.jpg" alt="Divide Specialty Coffee & Ceremonial Matcha" class="work-img">
+            <div class="work-overlay-info">
+              <span class="work-year">2025–2026</span>
+              <span class="work-cat">FRANCHISE & VIRAL RETAIL</span>
+            </div>
+          </div>
+          <div class="work-meta">
+            <h3 class="work-title">Divide: Ceremonial Matcha & Specialty Coffee</h3>
+            <p class="work-excerpt">Translating online buzz and community anticipation into a bustling, profitable physical retail operation with daily footfall records.</p>
+          </div>
+        </article>
+
+        <!-- Feature Item 2: Organic Agency -->
+        <article class="work-item item-medium" data-cursor="VIEW ↗">
+          <div class="work-image-holder">
+            <img src="assets/images/organic-founders.jpg" alt="Organic Agency Founders" class="work-img">
+            <div class="work-overlay-info">
+              <span class="work-year">CO-FOUNDER</span>
+              <span class="work-cat">CREATIVE AGENCY</span>
+            </div>
+          </div>
+          <div class="work-meta">
+            <h3 class="work-title">Organic: Scaling 35+ Forward-Thinking Brands</h3>
+            <p class="work-excerpt">Rejecting cookie-cutter ads in favor of narrative-driven, personality-centric social campaigns for Koko, Glow, Kannadi.lk, and Land-Rover.</p>
+          </div>
+        </article>
+
+        <!-- Feature Item 3: Stand-Up & Stagecraft -->
+        <article class="work-item item-medium" data-cursor="VIEW ↗">
+          <div class="work-image-holder">
+            <img src="assets/images/standup-comedy.jpg" alt="Amantha Comedy & Stagecraft" class="work-img">
+            <div class="work-overlay-info">
+              <span class="work-year">LIVE PERFORMANCE</span>
+              <span class="work-cat">STAGECRAFT & COMEDY</span>
+            </div>
+          </div>
+          <div class="work-meta">
+            <h3 class="work-title">Audience Control & High-Retention Scripting</h3>
+            <p class="work-excerpt">Harnessing stand-up comedy timing and microphone stagecraft to capture, hold, and command audience attention across digital video.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         06. ORGANIC SECTION — CLIENT NAMES & AGENCY SHOWCASE
+         ==================================================================== -->
+    <section class="section-editorial organic-section" id="organic">
+      <div class="section-meta-header">
+        <span class="meta-number">04</span>
+        <span class="meta-title">THE AGENCY</span>
+      </div>
+
+      <div class="organic-main-block">
+        <div class="organic-title-row">
+          <div>
+            <h2 class="massive-headline">ORGANIC<span class="accent-period">.</span></h2>
+            <p class="organic-subhead">Personality-led. Performance-first.</p>
+          </div>
+          <div class="organic-badge-monochrome">
+            <span>AGENCY OF RECORD</span>
+          </div>
+        </div>
+
+        <p class="organic-manifesto-para">
+          Traditional digital advertising is dead—audiences scroll past generic brand ads in milliseconds. At <strong>Organic</strong>, we craft authentic, charismatic, personality-led video formats that people intentionally watch, quote, and share.
+        </p>
+
+        <!-- Multi-Speed Kinetic Typography Marquees -->
+        <div class="marquees-container" aria-label="Client Roster">
+          <div class="marquee-row marquee-fast">
+            <div class="marquee-content">
+              <span>KOKO</span> <span class="sep">/</span>
+              <span>GLOW</span> <span class="sep">/</span>
+              <span>KANNADI.LK</span> <span class="sep">/</span>
+              <span>THE BUTLER</span> <span class="sep">/</span>
+              <span>TAP HOUSE</span> <span class="sep">/</span>
+              <span>MEZO</span> <span class="sep">/</span>
+              <span>CEYLON NOMAD</span> <span class="sep">/</span>
+              <span>UNBOX CEYLON</span> <span class="sep">/</span>
+              <span>COFFEE BREAK</span> <span class="sep">/</span>
+              <span>ROUGH</span> <span class="sep">/</span>
+              <span>ARTERA</span> <span class="sep">/</span>
+              <!-- Repeat for loop -->
+              <span>KOKO</span> <span class="sep">/</span>
+              <span>GLOW</span> <span class="sep">/</span>
+              <span>KANNADI.LK</span> <span class="sep">/</span>
+              <span>THE BUTLER</span> <span class="sep">/</span>
+              <span>TAP HOUSE</span> <span class="sep">/</span>
+              <span>MEZO</span> <span class="sep">/</span>
+              <span>CEYLON NOMAD</span> <span class="sep">/</span>
+              <span>UNBOX CEYLON</span> <span class="sep">/</span>
+              <span>COFFEE BREAK</span> <span class="sep">/</span>
+              <span>ROUGH</span> <span class="sep">/</span>
+              <span>ARTERA</span> <span class="sep">/</span>
+            </div>
+          </div>
+
+          <div class="marquee-row marquee-reverse">
+            <div class="marquee-content">
+              <span>BLUEFORT</span> <span class="sep">/</span>
+              <span>THAMBILI ISLAND</span> <span class="sep">/</span>
+              <span>CULTURE BY DRI</span> <span class="sep">/</span>
+              <span>SATYA</span> <span class="sep">/</span>
+              <span>LACTOBOOST</span> <span class="sep">/</span>
+              <span>LAND-ROVER</span> <span class="sep">/</span>
+              <span>PLADIUM</span> <span class="sep">/</span>
+              <span>RUSH</span> <span class="sep">/</span>
+              <span>CONCERT WORLD</span> <span class="sep">/</span>
+              <span>KEGAMA</span> <span class="sep">/</span>
+              <span>SUPREME</span> <span class="sep">/</span>
+              <!-- Repeat for loop -->
+              <span>BLUEFORT</span> <span class="sep">/</span>
+              <span>THAMBILI ISLAND</span> <span class="sep">/</span>
+              <span>CULTURE BY DRI</span> <span class="sep">/</span>
+              <span>SATYA</span> <span class="sep">/</span>
+              <span>LACTOBOOST</span> <span class="sep">/</span>
+              <span>LAND-ROVER</span> <span class="sep">/</span>
+              <span>PLADIUM</span> <span class="sep">/</span>
+              <span>RUSH</span> <span class="sep">/</span>
+              <span>CONCERT WORLD</span> <span class="sep">/</span>
+              <span>KEGAMA</span> <span class="sep">/</span>
+              <span>SUPREME</span> <span class="sep">/</span>
+            </div>
+          </div>
+
+          <div class="marquee-row marquee-slow">
+            <div class="marquee-content">
+              <span>ORBIT 88</span> <span class="sep">/</span>
+              <span>DIVIDE</span> <span class="sep">/</span>
+              <span>TATHYA</span> <span class="sep">/</span>
+              <span>PALII'S</span> <span class="sep">/</span>
+              <span>LIV</span> <span class="sep">/</span>
+              <span>KFL NOMAD</span> <span class="sep">/</span>
+              <span>BLUEFORT</span> <span class="sep">/</span>
+              <span>ROUGH</span> <span class="sep">/</span>
+              <span>MEZO</span> <span class="sep">/</span>
+              <!-- Repeat for loop -->
+              <span>ORBIT 88</span> <span class="sep">/</span>
+              <span>DIVIDE</span> <span class="sep">/</span>
+              <span>TATHYA</span> <span class="sep">/</span>
+              <span>PALII'S</span> <span class="sep">/</span>
+              <span>LIV</span> <span class="sep">/</span>
+              <span>KFL NOMAD</span> <span class="sep">/</span>
+              <span>BLUEFORT</span> <span class="sep">/</span>
+              <span>ROUGH</span> <span class="sep">/</span>
+              <span>MEZO</span> <span class="sep">/</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         07. DIVIDE SECTION — IMMERSIVE BUSINESS OPERATOR
+         ==================================================================== -->
+    <section class="section-editorial divide-section" id="divide">
+      <div class="section-meta-header">
+        <span class="meta-number">05</span>
+        <span class="meta-title">THE FRANCHISE</span>
+      </div>
+
+      <div class="divide-editorial-layout">
+        <div class="divide-visual-col" data-cursor="DIVIDE">
+          <div class="divide-image-main">
+            <img src="assets/images/divide-storefront.jpg" alt="Amantha in Divide Apron" class="divide-hero-img">
+            <div class="divide-cutout-drink">
+              <img src="assets/images/matcha-cups.png" alt="Matcha Drink" class="matcha-png">
+            </div>
+          </div>
+        </div>
+
+        <div class="divide-content-col">
+          <div class="divide-brand-badge">
+            <span class="divide-symbol">÷</span>
+            <span class="divide-name">DIVIDE</span>
+          </div>
+
+          <h2 class="massive-headline">OPERATOR<span class="accent-period">.</span></h2>
+          <p class="divide-lead-text">
+            Owner and operator of a Divide franchise. While others lecture on theories of marketing, I test ideas live on my own balance sheet every single day.
+          </p>
+
+          <div class="divide-pillars-list">
+            <div class="d-pillar">
+              <span class="d-label">OPERATIONS</span>
+              <p>Day-to-day storefront logistics, supply chains, quality consistency, and customer service delivery.</p>
+            </div>
+            <div class="d-pillar">
+              <span class="d-label">STAFF & LEADERSHIP</span>
+              <p>Managing and mentoring in-store baristas and front-of-house teams to maintain culture.</p>
+            </div>
+            <div class="d-pillar">
+              <span class="d-label">LOCAL MARKETING</span>
+              <p>Physical store activations, community events, and hyper-targeted creator promotions.</p>
+            </div>
+            <div class="d-pillar">
+              <span class="d-label">P&L ACCOUNTABILITY</span>
+              <p>Margin discipline, cost-of-goods management, and net profit optimization under real market conditions.</p>
+            </div>
+            <div class="d-pillar">
+              <span class="d-label">CUSTOMER EXPERIENCE</span>
+              <p>Obsessing over the sensory journey from opening the door to the first sip of ceremonial matcha.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         08. PERFORMER SECTION — STAGECRAFT & CONTROL
+         ==================================================================== -->
+    <section class="section-editorial performer-section" id="performer">
+      <div class="section-meta-header">
+        <span class="meta-number">06</span>
+        <span class="meta-title">THE STAGE</span>
+      </div>
+
+      <div class="performer-editorial-spread">
+        <div class="performer-copy-block">
+          <span class="performer-tag">LIVE STAGE ARCHIVE</span>
+          <h2 class="massive-headline">
+            TIMING<span class="accent-period">.</span> <br>
+            STAGECRAFT<span class="accent-period">.</span> <br>
+            AUDIENCE CONTROL<span class="accent-period">.</span>
+          </h2>
+          <p class="performer-description">
+            Stand-up comedian and musician. Performing live in front of unpredictable rooms teaches what no marketing degree can: how to command silence, spark laughter, and hold 500 pairs of eyes without losing a single second.
+          </p>
+        </div>
+
+        <div class="performer-visual-duo">
+          <div class="perf-card card-singing" data-cursor="VOICE">
+            <img src="assets/images/performer-stage.jpg" alt="Amantha Singing on Stage" class="perf-img">
+            <div class="perf-caption">ACOUSTIC & VOCAL PERFORMANCE</div>
+          </div>
+          <div class="perf-card card-comedy" data-cursor="STANDUP">
+            <img src="assets/images/standup-portrait.jpg" alt="Amantha Stand-Up Comedy" class="perf-img">
+            <div class="perf-caption">STAND-UP COMEDY // BOTTOMS UP</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         09. FULL-SCREEN DRAMATIC PHILOSOPHY MOMENT
+         ==================================================================== -->
+    <section class="section-philosophy" id="philosophy">
+      <div class="philosophy-inner">
+        <span class="philosophy-pre">THE CORE THESIS</span>
+        
+        <div class="philosophy-type-sequence">
+          <p class="seq-line line-1 reveal-line">I DON'T JUST CREATE CONTENT.</p>
+          <p class="seq-line line-2 reveal-line">I BUILD BUSINESSES AROUND IT.</p>
+        </div>
+
+        <div class="philosophy-conversion-chain reveal-line">
+          <span>ATTENTION</span>
+          <span class="chain-arrow">→</span>
+          <span>TRUST</span>
+          <span class="chain-arrow">→</span>
+          <span>CONVERSIONS</span>
+          <span class="chain-arrow">→</span>
+          <span>REVENUE</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         10. RATE CARD UI — HORIZONTAL EDITORIAL PRICING & ACCORDION
+         ==================================================================== -->
+    <section class="section-editorial rates-section" id="rates">
+      <div class="section-meta-header">
+        <span class="meta-number">07</span>
+        <span class="meta-title">INVESTMENT & DELIVERABLES</span>
+      </div>
+
+      <div class="rates-headline-row">
+        <div>
+          <h2 class="massive-headline">OFFICIAL RATES<span class="accent-period">.</span></h2>
+          <p class="rates-subhead">Honest. Bold. Transparent pricing for premium brand partnerships.</p>
+        </div>
+
+        <div class="currency-toggle-wrapper">
+          <span class="curr-label">CURRENCY:</span>
+          <div class="curr-switch-pills">
+            <button class="curr-toggle-btn active" id="btnCurrLKR">LKR</button>
+            <button class="curr-toggle-btn" id="btnCurrUSD">USD ($)</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Horizontal Editorial Packages (NO SaaS cards!) -->
+      <div class="editorial-packages-row">
+        <!-- Standard Package -->
+        <div class="editorial-pkg-item">
+          <div class="pkg-header">
+            <span class="pkg-tier-label">CURATED CAMPAIGN // 01</span>
+            <h3 class="pkg-title">STANDARD</h3>
+          </div>
+          <div class="pkg-inclusions-list">
+            <div class="inc-row"><span>1x Full Production Reel (Concept, Film, Edit, Post)</span></div>
+            <div class="inc-row"><span>2x Instagram Stories with Brand Mention</span></div>
+            <div class="inc-row"><span class="foc-tag">1x Reel Story Repost (FOC Bonus)</span></div>
+          </div>
+          <div class="pkg-bottom">
+            <div class="pkg-price-display">
+              <span class="price-val" data-lkr="150,000" data-usd="500">LKR 150,000</span>
+            </div>
+            <a href="#contact" class="pkg-select-btn magnetic" data-pkg="Standard Package" data-cursor="BOOK ↗">
+              <span>SELECT TIER</span>
+              <span class="arr">↗</span>
+            </a>
+          </div>
+        </div>
+
+        <!-- Premium Package -->
+        <div class="editorial-pkg-item featured-pkg">
+          <div class="pkg-header">
+            <span class="pkg-tier-label highlight-label">FULL TAKEOVER // 02</span>
+            <h3 class="pkg-title">PREMIUM</h3>
+          </div>
+          <div class="pkg-inclusions-list">
+            <div class="inc-row"><span>2x Full Production Reels with Multi-Angle Hooks</span></div>
+            <div class="inc-row"><span>3x High-Converting Stories with Direct Links</span></div>
+            <div class="inc-row"><span class="foc-tag">2x Reel Story Reposts (FOC Bonus)</span></div>
+            <div class="inc-row"><span>Priority Timeline & Collaborative Strategy Session</span></div>
+          </div>
+          <div class="pkg-bottom">
+            <div class="pkg-price-display">
+              <span class="price-val" data-lkr="260,000" data-usd="867">LKR 260,000</span>
+            </div>
+            <a href="#contact" class="pkg-select-btn magnetic" data-pkg="Premium Package" data-cursor="BOOK ↗">
+              <span>SELECT TIER</span>
+              <span class="arr">↗</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Expandable Deliverables Accordion -->
+      <div class="accordion-container">
+        <div class="accordion-header-title">
+          <span>INDIVIDUAL DELIVERABLES BREAKDOWN</span>
+          <span>CLICK TO EXPAND DETAILS ↓</span>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span class="acc-title">FULL PRODUCTION REEL</span>
+            <span class="acc-rate" data-lkr="130,000 – 160,000 LKR" data-usd="$430 – $530 USD">130,000 – 160,000 LKR (negotiable)</span>
+            <span class="acc-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p>1x complete high-retention vertical production including creative ideation, bespoke scriptwriting, on-set filming, professional color grading, dynamic sound design, audio pacing, and coordinated posting.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span class="acc-title">INSTAGRAM STORY (GENERAL)</span>
+            <span class="acc-rate" data-lkr="18,000 LKR" data-usd="$60 USD">18,000 LKR</span>
+            <span class="acc-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p>1x organic daily story placement featuring natural brand integration, candid product demonstration, or casual lifestyle mention seen by 10,000+ loyal daily viewers.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span class="acc-title">INSTAGRAM STORY (WITH ACTIVE LINK / TAG)</span>
+            <span class="acc-rate" data-lkr="25,000 LKR" data-usd="$85 USD">25,000 LKR</span>
+            <span class="acc-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p>1x high-intent conversion story featuring direct call-to-action link sticker or brand tag, driving targeted traffic to your e-commerce shop, landing page, or reservation portal.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span class="acc-title">AMANTHA’S REEL STORY REPOST</span>
+            <span class="acc-rate highlight-foc">FOC (ONCE WITH ANY REEL)</span>
+            <span class="acc-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p>Complimentary bonus broadcast of the published reel directly onto Amantha's primary Instagram Stories to double engagement within the crucial first 24-hour algorithmic window.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-trigger" aria-expanded="false">
+            <span class="acc-title">GENERAL BRAND STORY SHARE</span>
+            <span class="acc-rate" data-lkr="12,000 LKR" data-usd="$40 USD">12,000 LKR (negotiable)</span>
+            <span class="acc-icon">+</span>
+          </button>
+          <div class="accordion-panel">
+            <p>Amplifying an existing post, carousel, or announcement from the brand's own official channel onto Amantha's story to cross-pollinate credibility and boost reach.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Scope & Travel Note -->
+      <div class="rates-disclaimer-strip">
+        <p><strong>SCOPE & TRAVEL NOTE:</strong> All rates are subject to adjustment based on shoot distance/travel, expedited turnaround requirements (under 48h), or custom category exclusivity. Retainer pricing available on request.</p>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         11. CONTACT SECTION — CAMPAIGN FINALE
+         ==================================================================== -->
+    <section class="section-editorial contact-section" id="contact">
+      <div class="section-meta-header">
+        <span class="meta-number">08</span>
+        <span class="meta-title">COLLABORATE</span>
+      </div>
+
+      <div class="contact-campaign-block">
+        <div class="contact-headline-col">
+          <h2 class="massive-headline">
+            LET’S BUILD <br>
+            SOMETHING <br>
+            THAT MATTERS<span class="accent-period">.</span>
+          </h2>
+
+          <div class="contact-manifesto-quotes">
+            <p class="c-quote-1">“If you want reach, buy ads.”</p>
+            <p class="c-quote-2">“If you want relevance, top of mind, & conversions, <strong>let’s build.</strong>”</p>
+          </div>
+
+          <div class="direct-email-box">
+            <span class="box-lbl">DIRECT COLLABORATION INQUIRY</span>
+            <a href="mailto:notamanthaperera27@gmail.com" class="big-email-link" data-cursor="COPY ↗">
+              notamanthaperera27@gmail.com
+            </a>
+          </div>
+        </div>
+
+        <div class="contact-form-col">
+          <div class="editorial-form-wrap">
+            <span class="form-tag">TRANSACTIONAL INTAKE // 2026</span>
+            <h3 class="form-title">INITIATE A PARTNERSHIP</h3>
+
+            <form id="editorialInquiryForm" class="editorial-form">
+              <div class="form-field">
+                <label for="inputBrand">BRAND / AGENCY NAME</label>
+                <input type="text" id="inputBrand" required placeholder="e.g. Koko / Supreme / Emerging Venture">
+              </div>
+
+              <div class="form-field">
+                <label for="inputEmail">WORK EMAIL</label>
+                <input type="email" id="inputEmail" required placeholder="name@company.com">
+              </div>
+
+              <div class="form-field">
+                <label for="inputTier">CAMPAIGN FORMAT</label>
+                <select id="inputTier">
+                  <option value="Standard Package (150,000 LKR)">Standard Package — 1 Reel + 2 Stories</option>
+                  <option value="Premium Package (260,000 LKR)">Premium Package — 2 Reels + 3 Stories</option>
+                  <option value="Full Production Reel (130k-160k LKR)">Full Production Reel (Bespoke)</option>
+                  <option value="Organic Agency Retainer">Organic Agency Creative Retainer</option>
+                  <option value="Divide Retail Activation">Divide Venue / Retail Activation</option>
+                  <option value="Stage Hosting / Live Appearance">Stage Hosting / Live Appearance</option>
+                </select>
+              </div>
+
+              <div class="form-field">
+                <label for="inputBrief">CAMPAIGN OBJECTIVE / TIMELINE</label>
+                <textarea id="inputBrief" rows="3" required placeholder="Tell me about your product, desired launch window, and what winning looks like for your brand..."></textarea>
+              </div>
+
+              <button type="submit" class="editorial-submit-btn magnetic" data-cursor="SEND ↗">
+                <span>SUBMIT INQUIRY</span>
+                <span class="arr">↗</span>
+              </button>
+
+              <div class="form-response-note" id="formNote">
+                <span class="check">✓</span> Opening email client with your compiled brief...
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Editorial Footer -->
+  <footer class="editorial-footer">
+    <div class="footer-inner">
+      <div class="footer-left">
+        <span class="footer-brand">AMANTHA PERERA<span class="dot">.</span></span>
+        <p class="footer-sub">Marketer · Founder · Creator · Performer</p>
+      </div>
+
+      <div class="footer-social-links">
+        <a href="https://instagram.com/notamantha" target="_blank" rel="noopener" class="foot-link">INSTAGRAM ↗</a>
+        <a href="https://tiktok.com/@notamantha" target="_blank" rel="noopener" class="foot-link">TIKTOK ↗</a>
+        <a href="mailto:notamanthaperera27@gmail.com" class="foot-link">EMAIL ↗</a>
+      </div>
+
+      <div class="footer-rights">
+        <span>&copy; 2026 AMANTHA PERERA. ALL RIGHTS RESERVED.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Three.js 3D Engine for Hero Spatial Scrolling -->
+  <script src="assets/three.min.js"></script>
+  <script src="script.js?v=19"></script>
+</body>
+</html>

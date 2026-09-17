@@ -1,0 +1,12 @@
+node_modules/
+extracted_images/
+notamantha.pdf
+assets/images/scratch_img_*.jpg
+assets/images/pdf-texture.jpg
+assets/images/hero-couch.jpg
+assets/images/hero-portrait.png
+assets/images/comedy-crowd.png
+assets/images/organic-discussion.jpg
+assets/images/organic-logo.jpg
+.git/
+scratch/
