@@ -2673,7 +2673,7 @@ body.editorial-body {
     padding: 85px 20px 28px;
     min-height: 100dvh;
     justify-content: space-between;
-    overflow: hidden;
+    overflow-x: clip;
   }
 
   .hero-top-bar {
@@ -3122,7 +3122,7 @@ body.editorial-body {
 
   .hero-editorial {
     padding: clamp(72px, 10vh, 84px) 16px 20px;
-    overflow: hidden;
+    overflow-x: clip;
   }
 
   .hero-top-bar {
@@ -3216,7 +3216,7 @@ body.editorial-body {
 
   .hero-editorial {
     padding: 68px 12px 18px;
-    overflow: hidden;
+    overflow-x: clip;
   }
 
   .hero-main-stage {
