@@ -34,7 +34,7 @@ document.addEventListener('DOMContentLoaded', () => {
     ];
 
     const startTime = performance.now();
-    const duration = 1250; // 1.25s crisp, luxurious timing
+    const duration = 2000; // Always 2s on every reload — luxurious, intentional
 
     function updatePreloader(currentTime) {
       const elapsed = currentTime - startTime;
@@ -70,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
           preloaderStatus.textContent = 'AMANTHA PERERA PORTFOLIO';
         }
 
-        // Brief cinematic pause at 100% before split shutter exit
+        // Cinematic pause at 100% before split shutter exit
         setTimeout(() => {
           preloader.classList.add('loaded');
           document.body.classList.remove('is-loading');
@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
             preloader.setAttribute('aria-hidden', 'true');
             preloader.style.display = 'none';
           }, 900);
-        }, 120);
+        }, 200);
       }
     }
 
