@@ -2680,6 +2680,7 @@ body.editorial-body {
     padding-bottom: 14px;
     font-size: 0.72rem;
     letter-spacing: 1px;
+    border-bottom: none;
   }
 
   .hero-main-stage {
@@ -3130,6 +3131,7 @@ body.editorial-body {
     align-items: flex-start;
     gap: 4px;
     font-size: 0.68rem;
+    border-bottom: none;
   }
 
   .hero-main-stage {
@@ -3217,6 +3219,10 @@ body.editorial-body {
   .hero-editorial {
     padding: 68px 12px 18px;
     overflow-x: clip;
+  }
+
+  .hero-top-bar {
+    border-bottom: none;
   }
 
   .hero-main-stage {
